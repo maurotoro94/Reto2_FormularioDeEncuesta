@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Reto2FormularioDeEncuesta</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+    </header>
+
+    <main id="main">
+        <form id="survey-form">
+            <label id="name-label" for="name">Name:</label><br>
+            <input type="text" id="name" name="name" value="Enter You name" required><br><br>
+            <label id="email-label" for="email">Email :</label><br>
+            <input type="email" id="email" name="email" value="Enter Your Email" required><br><br>
+            <label id="number-label" for="age">Age:</label><br>
+            <input type="number" id="number" name="age" value="Age" min="18" max="99" required><br><br>
+
+            <label for="dropdown">Which option best describes your current role?:</label><br>
+            <select name="select current role" id="dropdown">
+                <option value="student">Student</option>
+                <option value="full time job">Full Time Job</option>
+                <option value="full time learner">Full Timer Learner</option>
+                <option value="prefer not to say">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <label>
+                <input type="radio" name="indoor-outdoor" > Definitely
+            </label><br>
+            <label>
+                <input type="radio" name="indoor-outdoor"> maybe
+            </label><br>
+            <label>
+                <input type="radio" name="indoor-outdoor" > Not sure
+            </label><br>
+
+
+            <p>What would you like to see improved??</p>
+            <label>
+                <input type="checkbox" value="indooroutdoor" > Front-End projects
+            </label><br>
+            <label>
+                <input type="checkbox" value="indooroutdoor"> Back-End projects
+            </label><br>
+            <label>
+                <input type="checkbox" value="indooroutdoor" > Not sure
+            </label><br><br>
+
+
+
+
+            <label for="comentary">Any comments or suggestions?:</label><br><br>
+            <textarea id="comentary" name="comentary" rows="4" cols="50"></textarea><br><br>
+
+            <div class="align-center">
+                <button id="submit" type="button" class="boton1"><a href="#">submit</a></button>
+            </div>
+            
+
+        </form>
+    </main>
+</body>
+
+</html>

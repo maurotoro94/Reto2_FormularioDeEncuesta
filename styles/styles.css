@@ -1,0 +1,70 @@
+* {
+    background-image: url("../images/imagenfondo.jpg");
+    background-color: #cccccc;
+   }
+
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Lucida Sans';
+}
+
+main {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    color: white;
+    background-color: rgba(55, 44, 160, 0.479);
+    font-family: sans-serif;
+}
+
+form{
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 5px;
+    padding-top: 5px;
+    border-radius: 0.25;
+    
+}
+
+#name,#email,#number,#dropdown {
+    width: 90%;
+    background: white;
+}
+
+
+textarea{
+    background: white;
+    width: 90%;
+}
+
+.boton1{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 16px;
+    background: rgb(32, 196, 46);
+}
+
+.align-center{
+    text-align: center;
+    background: rgba(0, 0, 0, 0);
+}
+
+label,p{
+    background: rgba(0, 0, 0, 0);
+}
+
+a:link {
+    text-decoration: none;
+    outline:0;
+    color:white;
+    user-select: none;
+}
+a{
+
+    color:white;
+}
